@@ -1,0 +1,42 @@
+{
+  "handle": "@upperbbu_",
+  "slides": [
+    {
+      "type": "photo", "bg": "assets/couple.png", "handle": false,
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.15) 48%, rgba(0,0,0,.1) 100%)",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:60px\"><div class=\"shout\">서울 아파트,<br>이제 월세가 더 많아요</div><div class=\"label y\" style=\"margin-top:40px\">전세 사는 신혼부부라면 꼭 저장 📌</div></div><div class=\"cloud abs\" style=\"right:60px;top:820px\">{{cloud}}<span>전세 매물이<br>왜 이렇게 없지..?</span></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/desk.png",
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.4) 55%, rgba(0,0,0,.65) 100%)",
+      "html": "<div class=\"abs\" style=\"top:170px;left:70px;right:70px\"><div class=\"text\">올해 1~9월 서울 아파트<br>전월세 거래를 봤더니 👀</div><div class=\"label p\" style=\"margin-top:40px;font-size:96px;font-weight:900;padding:14px 34px\">월세 51%</div><div class=\"text\" style=\"margin-top:40px\">통계 집계(2011년) 이후<br><b>처음으로 월세가 절반</b>을 넘었어요</div></div><div class=\"abs\" style=\"bottom:110px;left:70px;right:70px\"><div class=\"label w\" style=\"font-size:40px\">작년 같은 기간 43.7% → 올해 51.0%</div><div class=\"small\" style=\"margin-top:20px\">자료: 서울부동산정보광장</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:140px;left:80px;right:80px\"><div class=\"title\">그런데 월세가 늘어난 게<br>아니라는 거 아세요?</div></div><div class=\"abs\" style=\"top:420px;left:80px;width:440px\"><div class=\"label k\" style=\"font-size:36px\">월세 거래</div><div class=\"num\" style=\"margin-top:20px;color:#9a9a9a\">-2.8<small>%</small></div></div><div class=\"abs\" style=\"top:420px;left:560px;width:440px\"><div class=\"label k\" style=\"font-size:36px\">전세 거래</div><div class=\"num\" style=\"margin-top:20px\">-27.5<small>%</small></div></div><div class=\"burst abs\" style=\"right:50px;top:700px;transform:rotate(8deg)\">{{burst}}<span>전세가<br>사라짐</span></div><div class=\"abs\" style=\"top:760px;left:80px;right:360px\"><div class=\"text\">월세는 그대로인데<br><span class=\"mark p\">전세가 확 줄어서</span><br>비중이 뒤집힌 거예요</div></div><div class=\"abs small\" style=\"bottom:60px;left:80px\">* 2026년 1~9월, 전년 동기 대비 거래량</div>"
+    },
+    {
+      "type": "photo", "bg": "assets/ginkgo.png",
+      "dim": "rgba(0,0,0,.5)",
+      "html": "<div class=\"abs\" style=\"top:150px;left:70px;right:70px\"><div class=\"text\">그 사이 월세는 얼마나 올랐냐면 💸</div></div><div class=\"capture abs\" style=\"top:300px;left:70px;right:70px;transform:rotate(-1.5deg)\"><div class=\"bar blue\">📊 서울 아파트 월세 (9월)</div><div class=\"big\">평균 월세<br><span style=\"font-size:84px;font-weight:900;color:#FF4FA3\">166만 1천원</span></div><div class=\"row\"><b>1년 전</b> 144만 3천원 <span class=\"muted\">→ +21만 8천원</span></div><div class=\"row\"><b>중위 월세</b> 120만원 → 140만원</div></div><div class=\"abs\" style=\"top:1000px;left:70px;right:70px\"><div class=\"label y\">1년에 260만원 넘게 더 내는 셈 😥</div><div class=\"small\" style=\"margin-top:22px\">자료: 한국부동산원</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">월세가 전세보다 많은 구<br><span class=\"pk\">4곳 → 13곳</span>으로 늘었어요</div></div><div class=\"pic abs\" style=\"top:430px;left:80px;width:400px;height:480px;background-image:url('assets/desk.png');transform:rotate(-3deg)\"></div><div class=\"label red abs\" style=\"top:880px;left:60px;font-size:36px\">중랑구 월세 거래 1년 새 +91.6% !!</div><div class=\"abs\" style=\"top:440px;left:540px;right:70px\"><div class=\"text\" style=\"font-size:38px;line-height:1.9\"><b>월세 비중 TOP 5</b><br>1. 종로구 <span class=\"mark p\">65.6%</span><br>2. 중랑구 <span class=\"mark p\">64.9%</span><br>3. 구로구 <span class=\"mark p\">63.1%</span><br>4. 중구 <span class=\"mark p\">59.6%</span><br>5. 금천구 <span class=\"mark p\">58.7%</span></div></div><div class=\"abs\" style=\"top:1010px;left:80px;right:80px\"><div class=\"text\" style=\"font-size:36px\">올해 새로 월세 우위가 된 곳 👉 강남·마포·용산·영등포·광진·관악·동대문·강북·중랑</div></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/couple.png",
+      "dim": "rgba(0,0,0,.62)",
+      "html": "<div class=\"abs\" style=\"top:150px;left:70px;right:70px\"><div class=\"title\">전세는 왜 이렇게<br>사라졌을까요? 🤔</div></div><div class=\"abs\" style=\"top:470px;left:70px;right:70px\"><div class=\"label y\">1️⃣ 전세대출 규제 강화</div><br><div class=\"label y\" style=\"margin-top:20px\">2️⃣ 기존 세입자 계약갱신 증가</div><br><div class=\"label y\" style=\"margin-top:20px\">3️⃣ 서울 전역 토지거래허가구역</div></div><div class=\"abs\" style=\"bottom:110px;left:70px;right:70px\"><div class=\"text\">토허구역에선 집을 사면 <b>4개월 안에 직접 들어가 살아야</b> 해서 전세로 내놓기가 어려워요</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">전세 사는 우리, 지금 할 일 ✅</div></div><div class=\"abs\" style=\"top:290px;left:80px;right:80px\"><div class=\"text\">1️⃣ <span class=\"mark\">만기 6~2개월 전</span> 갱신 여부 정하기</div><div class=\"small\" style=\"margin:6px 0 0 62px\">계약갱신요구권은 한 번 쓸 수 있어요</div><div class=\"text\" style=\"margin-top:34px\">2️⃣ <span class=\"mark\">월세 vs 대출이자</span> 직접 계산해보기</div><div class=\"small\" style=\"margin:6px 0 0 62px\">평균 월세 166만원이면 1년 약 2천만원</div><div class=\"text\" style=\"margin-top:34px\">3️⃣ <span class=\"mark\">6억 이하 내 집 마련</span>도 같이 보기</div><div class=\"small\" style=\"margin:6px 0 0 62px\">서울 아파트 매매 5건 중 1건이 6억 미만</div></div><div class=\"cut abs\" style=\"top:990px;left:60px;right:60px\">✂️<i></i>✂️</div><div class=\"abs\" style=\"top:1070px;left:80px;right:80px\"><div class=\"label red\" style=\"font-size:40px\">전세 매물 부족, 당분간 이어질 수 있어요</div></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/ginkgo.png", "handle": false,
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.1) 0%, rgba(0,0,0,.7) 100%)",
+      "html": "<div class=\"abs\" style=\"bottom:200px;left:70px;right:70px\"><div class=\"label p\" style=\"font-size:40px\">매주 목요일 저녁 7시 🏠</div><div class=\"shout\" style=\"font-size:88px;margin-top:30px\">영끌로 집 산 부부가<br>꼭 필요한 이슈만 골라드려요</div><div class=\"text\" style=\"margin-top:36px\">놓치기 싫다면 <b>저장</b>하고 <span class=\"pk\" style=\"font-weight:800\">@upperbbu_</span> 팔로우 💗</div></div>"
+    }
+  ]
+}

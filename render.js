@@ -22,7 +22,9 @@ const BURST = (() => {
 const slideHtml = (s) => {
   const bg = s.bg ? `background-image:url('file://${path.resolve(base, s.bg)}');` : '';
   const dim = s.dim ? `--dim:${s.dim};` : '';
-  const html = s.html.replaceAll('{{cloud}}', CLOUD).replaceAll('{{burst}}', BURST);
+  const html = s.html.replaceAll('{{cloud}}', CLOUD).replaceAll('{{burst}}', BURST)
+    // html 안의 상대 경로 이미지도 slides.json 위치 기준으로
+    .replace(/url\('(?!file:|https?:)([^']+)'\)/g, (_, p) => `url('file://${path.resolve(base, p)}')`);
   return `<section class="slide ${s.type}" style="${bg}${dim}">${s.handle === false ? '' : `<div class="handle">${data.handle}</div>`}${html}</section>`;
 };
 
