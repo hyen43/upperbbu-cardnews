@@ -1,3 +1,5 @@
 .tmp_*
 node_modules/
 out/
+!weeks/*/out/
+weeks/*/out/overview.jpg
