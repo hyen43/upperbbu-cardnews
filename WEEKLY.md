@@ -34,11 +34,15 @@
 - 커밋·push (out/*.jpg 포함 — 인스타가 raw URL로 가져감)
 
 ## 4. 시안 공유 (17:00)
-- `SendUserFile`로 overview + 낱장 + caption 내용을 보여주고 수정 요청 받기
+- 릴스 버전도 만든다: `python3 scripts/make_reel.py weeks/YYYY-MM-DD` → `out/reel.mp4` (9:16, 무음)
+  - `music/`에 사용자가 넣어둔 저작권 free 음원이 있으면 `--music music/<파일>`로 넣는다
+- `SendUserFile`로 overview + 낱장 + reel.mp4 + caption 내용을 보여주고 수정 요청 받기
+- 릴스는 **사용자가 인스타 앱에서 음악(인기 음원)을 붙여 직접 게시**하는 게 기본. API로는 인스타 음악 라이브러리를 붙일 수 없음
 - 수정 반영 → 다시 렌더·push → 다시 보여주기
 
 ## 5. 게시 (19:00)
-- **사용자가 이번 주 시안을 명시적으로 승인한 경우에만** `python3 scripts/publish.py weeks/YYYY-MM-DD --publish`
+- **사용자가 이번 주 시안을 명시적으로 승인한 경우에만** `python3 scripts/publish.py weeks/YYYY-MM-DD --publish` (캐러셀)
+- 사용자가 릴스를 직접 올리기로 했으면 캐러셀 자동 게시는 사용자가 원할 때만 (같은 내용 중복 게시 주의)
 - 승인이 없으면 게시하지 않고 "승인해 주시면 바로 올릴게요"라고 알림
 - 게시 후 permalink를 알려주고 `weeks/.../published.txt`에 기록, 커밋·push
 
