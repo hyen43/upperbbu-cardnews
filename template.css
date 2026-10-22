@@ -1,0 +1,84 @@
+@font-face { font-family: 'Pretendard'; font-weight: 400; src: url('fonts/Pretendard-Regular.otf'); }
+@font-face { font-family: 'Pretendard'; font-weight: 500; src: url('fonts/Pretendard-Medium.otf'); }
+@font-face { font-family: 'Pretendard'; font-weight: 600; src: url('fonts/Pretendard-SemiBold.otf'); }
+@font-face { font-family: 'Pretendard'; font-weight: 700; src: url('fonts/Pretendard-Bold.otf'); }
+@font-face { font-family: 'Pretendard'; font-weight: 800; src: url('fonts/Pretendard-ExtraBold.otf'); }
+@font-face { font-family: 'Pretendard'; font-weight: 900; src: url('fonts/Pretendard-Black.otf'); }
+@font-face { font-family: 'Gmarket'; src: url('fonts/gmarketsansmedium-normal.woff'); }
+
+:root {
+  --pink: #FF4FA3;
+  --pink-label: #FF7BC4;
+  --yellow: #FFF6B8;
+  --paper: #FBF8EC;
+  --ink: #141414;
+  --red: #E0472E;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { width: 1080px; font-family: 'Pretendard', sans-serif; color: var(--ink); letter-spacing: -0.035em; word-break: keep-all; }
+.slide { width: 1080px; height: 1350px; position: relative; overflow: hidden; }
+.abs { position: absolute; }
+
+/* ── 배경 ───────────────────────────── */
+.photo { background-size: cover; background-position: center; color: #fff; }
+.photo::before { content: ''; position: absolute; inset: 0; background: var(--dim, linear-gradient(180deg, rgba(0,0,0,.35) 0%, rgba(0,0,0,.15) 45%, rgba(0,0,0,.55) 100%)); }
+.photo > * { z-index: 1; }
+.paper { background: var(--paper); }
+
+/* ── 타이포 ─────────────────────────── */
+.shout { font: 800 104px/1.2 'Pretendard'; letter-spacing: -0.05em; text-shadow: 0 4px 24px rgba(0,0,0,.35); }
+.title { font: 700 66px/1.3 'Pretendard'; letter-spacing: -0.04em; }
+.text { font: 500 44px/1.55 'Pretendard'; }
+.photo .text, .photo .title { text-shadow: 0 2px 14px rgba(0,0,0,.45); }
+.pk { color: var(--pink); }
+.photo .pk { color: var(--pink-label); }
+.small { font: 500 32px/1.5 'Pretendard'; opacity: .8; }
+
+/* ── 라벨 박스 (레퍼런스의 노랑/핑크/흰 띠) ── */
+.label { display: inline-block; padding: 10px 26px; font: 600 50px/1.35 'Pretendard'; color: var(--ink); text-shadow: none; }
+.label.y { background: var(--yellow); }
+.label.p { background: var(--pink-label); }
+.label.w { background: #fff; }
+.label.k { background: var(--ink); color: #fff; }
+.label.red { background: var(--red); color: #fff; font-family: 'Gmarket'; }
+.mark { background: linear-gradient(transparent 52%, var(--yellow) 52%); padding: 0 6px; }
+.mark.p { background: linear-gradient(transparent 52%, #FFC6E3 52%); }
+
+/* ── 생각 구름 말풍선 ────────────────── */
+.cloud { width: 440px; height: 270px; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--ink); font: 500 34px/1.5 'Pretendard'; text-shadow: none; }
+.cloud svg { position: absolute; inset: 0; width: 100%; height: 100%; filter: drop-shadow(0 8px 18px rgba(0,0,0,.25)); }
+.cloud span { position: relative; padding: 0 40px; }
+.cloud::after, .cloud::before { content: ''; position: absolute; background: #fff; border-radius: 50%; box-shadow: 0 4px 10px rgba(0,0,0,.2); }
+.cloud::after { width: 34px; height: 34px; right: 40px; bottom: -40px; }
+.cloud::before { width: 20px; height: 20px; right: 10px; bottom: -72px; }
+
+/* ── 별 스티커 ──────────────────────── */
+.burst { width: 320px; height: 320px; display: flex; align-items: center; justify-content: center; color: var(--ink); font: 700 34px/1.3 'Pretendard'; text-align: center; text-shadow: none; }
+.burst svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.burst span { position: relative; }
+
+/* ── 캡처 카드 (앱/알림/문자 화면 느낌) ── */
+.capture { background: #fff; color: var(--ink); border-radius: 6px; box-shadow: 0 14px 40px rgba(0,0,0,.28); text-shadow: none; font-family: 'Pretendard'; }
+.capture .bar { font: 800 26px 'Pretendard'; padding: 22px 30px 16px; border-bottom: 2px solid #eee; }
+.capture .bar.green { color: #03C75A; }
+.capture .bar.blue { color: #1B64DA; }
+.capture .row { padding: 20px 30px; border-bottom: 1px solid #f0f0f0; font: 500 28px/1.45 'Pretendard'; }
+.capture .row:last-child { border-bottom: 0; }
+.capture .row b { font-weight: 800; }
+.capture .muted { color: #8a8a8a; font-size: 24px; }
+.capture .big { font: 700 44px/1.35 'Pretendard'; padding: 28px 30px 34px; }
+
+/* ── 이미지 카드 (종이 배경 위에 붙인 사진) ── */
+.pic { background-size: cover; background-position: center; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+
+/* ── 가위선 ─────────────────────────── */
+.cut { display: flex; align-items: center; gap: 14px; font-size: 40px; color: #555; }
+.cut i { flex: 1; border-top: 4px dashed #8a8a8a; }
+
+/* ── 숫자 스티커 ───────────────────── */
+.num { font: 900 150px/1 'Pretendard'; color: var(--pink); letter-spacing: -0.06em; }
+.num small { font-size: 70px; }
+
+/* ── 크롬 ──────────────────────────── */
+.handle { position: absolute; top: 34px; left: 0; right: 0; text-align: center; font: 800 30px 'Pretendard'; z-index: 2; }
+.photo .handle { color: #fff; text-shadow: 0 2px 8px rgba(0,0,0,.4); }

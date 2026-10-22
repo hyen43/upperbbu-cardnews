@@ -1,0 +1,33 @@
+{
+  "handle": "@upperbbu_",
+  "slides": [
+    {
+      "type": "photo", "bg": "assets/bed.png", "handle": false,
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.45) 0%, rgba(0,0,0,.1) 50%, rgba(0,0,0,.2) 100%)",
+      "html": "<div class=\"abs\" style=\"top:150px;left:80px;right:60px\"><div class=\"shout\">내년부터<br>전세대출 덜 나온다고?</div><div class=\"label y\" style=\"margin-top:40px\">갈아타기 준비 중이면 무조건 저장 📌</div></div><div class=\"cloud abs\" style=\"left:70px;top:760px\">{{cloud}}<span>전세 연장하려 했는데<br>나 어떡해..</span></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/apt.png",
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.35) 60%, rgba(0,0,0,.6) 100%)",
+      "html": "<div class=\"abs\" style=\"top:150px;left:70px;right:70px\"><div class=\"text\">금융당국이 <b>1주택자</b>의 ✨전세대출 보증✨을<br>줄이기로 했어요</div><div class=\"text\" style=\"margin-top:36px\">시행은 바로 👀</div><div class=\"label p\" style=\"margin-top:24px;font-size:64px;font-weight:800\">2027년 1월 1일부터</div></div><div class=\"abs\" style=\"bottom:110px;left:70px;right:70px\"><div class=\"text\">집 한 채 갖고 전세 사는 분들,<br>특히 <span class=\"pk\" style=\"font-weight:800\">갈아타기 대기 중</span>인 분들은<br>꼭 알아두셔야 해요!</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:140px;left:80px;right:80px\"><div class=\"title\">그래서 얼마나 줄어드냐면..</div></div><div class=\"abs\" style=\"top:330px;left:80px;width:440px\"><div class=\"label k\" style=\"font-size:36px\">수도권·규제지역</div><div class=\"num\" style=\"margin-top:20px\">70<small>%</small></div></div><div class=\"abs\" style=\"top:330px;left:560px;width:440px\"><div class=\"label k\" style=\"font-size:36px\">그 외 지역</div><div class=\"num\" style=\"margin-top:20px\">80<small>%</small></div></div><div class=\"burst abs\" style=\"right:40px;top:560px;transform:rotate(-8deg)\">{{burst}}<span>보증<br>줄어듦</span></div><div class=\"abs\" style=\"top:700px;left:80px;right:340px\"><div class=\"text\">보증이 줄면<br>은행이 떠안는 위험 ⬆️</div></div><div class=\"abs\" style=\"top:920px;left:80px;right:80px\"><div class=\"label y\">→ 대출 한도가 줄거나</div><br><div class=\"label y\" style=\"margin-top:14px\">→ 심사가 깐깐해질 수 있어요 😥</div></div><div class=\"abs small\" style=\"bottom:60px;left:80px\">* 1주택자 전세대출 보증비율 기준</div>"
+    },
+    {
+      "type": "photo", "bg": "assets/bed.png",
+      "dim": "rgba(0,0,0,.55)",
+      "html": "<div class=\"abs\" style=\"top:140px;left:70px;right:70px\"><div class=\"text\">그리고 이 경우는 아예 막혀요 🙅‍♀️</div></div><div class=\"capture abs\" style=\"top:290px;left:70px;right:70px;transform:rotate(-1.5deg)\"><div class=\"bar blue\">📢 전세대출 안내</div><div class=\"big\">실거주 없이<br>세입자 보증금으로 집 산 경우</div><div class=\"row\"><b>신규 전세대출</b> <span class=\"muted\">· 원칙적 금지</span></div><div class=\"row\"><b>만기 연장</b> <span class=\"muted\">· 원칙적 금지</span></div></div><div class=\"abs\" style=\"top:900px;left:70px;right:70px\"><div class=\"label w\">쉽게 말해 ‘전세 끼고 집 사기’ 🔒</div></div><div class=\"abs\" style=\"bottom:110px;left:70px;right:70px\"><div class=\"text\">갭투자로 갈아타기 계획 중이었다면<br><span class=\"pk\" style=\"font-weight:800\">자금 계획 다시 짜야 해요!</span></div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">지금 당장 할 일 3가지 ✅</div></div><div class=\"pic abs\" style=\"top:290px;left:80px;width:420px;height:420px;background-image:url('assets/apt.png');transform:rotate(-3deg)\"></div><div class=\"label red abs\" style=\"top:640px;left:300px;font-size:44px\">체크 필수 !!</div><div class=\"abs\" style=\"top:300px;left:560px;right:70px\"><div class=\"text\" style=\"font-size:38px\">2027년 전후로<br>전세 만기·이사 일정<br>있는 분들은<br><span class=\"mark p\">미리 움직이는 게</span><br><span class=\"mark p\">유리해요</span></div></div><div class=\"cut abs\" style=\"top:800px;left:60px;right:60px\">✂️<i></i>✂️</div><div class=\"abs\" style=\"top:880px;left:80px;right:80px\"><div class=\"text\">1️⃣ 내 전세 <span class=\"mark\">만기일</span> 확인하기</div><div class=\"text\" style=\"margin-top:18px\">2️⃣ 은행에서 <span class=\"mark\">한도 미리 상담</span>받기</div><div class=\"text\" style=\"margin-top:18px\">3️⃣ <span class=\"mark\">매도·이사 타이밍</span> 다시 짜기</div></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/apt.png", "handle": false,
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.2) 0%, rgba(0,0,0,.65) 100%)",
+      "html": "<div class=\"abs\" style=\"bottom:200px;left:70px;right:70px\"><div class=\"label p\" style=\"font-size:40px\">매주 목요일 저녁 7시 🏠</div><div class=\"shout\" style=\"font-size:88px;margin-top:30px\">내 집 마련에 진짜<br>필요한 이슈만 골라드려요</div><div class=\"text\" style=\"margin-top:36px\">놓치기 싫다면 <b>저장</b>하고 <span class=\"pk\" style=\"font-weight:800\">@upperbbu_</span> 팔로우 💗</div></div>"
+    }
+  ]
+}
