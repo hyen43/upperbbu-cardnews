@@ -1,0 +1,41 @@
+{
+  "handle": "@upperbbu_",
+  "slides": [
+    {
+      "type": "photo", "bg": "assets/key.png", "handle": false,
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.15) 50%, rgba(0,0,0,.2) 100%)",
+      "html": "<div class=\"abs\" style=\"top:120px;left:80px;right:60px\"><div class=\"shout\" style=\"font-size:100px\">광교 새 아파트,<br><span style=\"color:#FFF6B8\">1.7억</span>에 입주?!</div><div class=\"label y\" style=\"margin-top:36px\">전국 최초 '지분적립형' · 다음 주 청약 📌</div></div><div class=\"cloud abs\" style=\"right:50px;top:860px\">{{cloud}}<span>이거 진짜<br>반값 아파트야..?</span></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/lake.png",
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.3) 50%, rgba(0,0,0,.65) 100%)",
+      "html": "<div class=\"abs\" style=\"top:150px;left:70px;right:70px\"><div class=\"label w\" style=\"font-size:40px\">📍 수원 광교 · 경기주택도시공사(GH)</div><div class=\"title\" style=\"margin-top:30px;font-size:74px;font-weight:800\">광교 자연앤 센트레빌<br>지분적립형 240세대</div><div class=\"text\" style=\"margin-top:20px\">집값을 <b>한 번에 다 안 내고</b><br>20년에 걸쳐 나눠 사는 아파트예요</div></div><div class=\"abs\" style=\"bottom:110px;left:70px;right:70px\"><div class=\"label p\" style=\"font-size:46px;font-weight:800\">59㎡ 분양가 6억5천~6억8,590만원</div><div class=\"small\" style=\"margin-top:20px\">자료: 청약홈 입주자모집공고 · 최고가 기준 타입별 상이</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">어떻게 나눠 사냐면요 🧩</div><div class=\"text\" style=\"margin-top:10px;font-size:38px\">6억8,590만원 집 기준</div></div><div class=\"capture abs\" style=\"top:340px;left:80px;right:80px\"><div class=\"row\" style=\"font-size:36px\"><b class=\"pk\">입주할 때 25%</b> · 약 1억7,148만원</div><div class=\"row\" style=\"font-size:36px\"><b>5년 뒤 +20%</b> · 1억3,718만원 + 이자</div><div class=\"row\" style=\"font-size:36px\"><b>10년 뒤 +20%</b></div><div class=\"row\" style=\"font-size:36px\"><b>15년 뒤 +20%</b></div><div class=\"row\" style=\"font-size:36px\"><b>20년 뒤 +15%</b> → <b class=\"pk\">100% 내 집 🏠</b></div></div><div class=\"burst abs\" style=\"right:40px;top:200px;transform:rotate(10deg);width:230px;height:230px;font-size:30px\">{{burst}}<span>20년<br>할부!</span></div><div class=\"abs\" style=\"top:860px;left:80px;right:80px\"><div class=\"label y\" style=\"font-size:38px\">⚠️ 추가로 사는 지분엔 이자가 붙어요</div><div class=\"text\" style=\"margin-top:60px\">한 번에 6.8억이 아니라<br><span class=\"mark p\"><b>5년마다 나눠서</b></span> 내 집을 늘려가는 방식이에요</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">그런데 1.7억만 있으면<br>될까요? 🤔</div></div><div class=\"pic abs\" style=\"top:380px;left:70px;width:360px;height:440px;background-image:url('assets/budget.png');transform:rotate(-3deg)\"></div><div class=\"label red abs\" style=\"top:780px;left:110px;font-size:38px\">여기가 함정 !!</div><div class=\"abs\" style=\"top:390px;left:480px;right:60px\"><div class=\"text\" style=\"font-size:38px;line-height:1.6\">나머지 75%는 GH 몫이라<br><span class=\"mark p\"><b>쓰는 값(임대료)</b></span>을<br>따로 내야 해요</div></div><div class=\"capture abs\" style=\"top:900px;left:80px;right:80px\"><div class=\"row\" style=\"font-size:34px\"><b>A안</b> 임대보증금 <b class=\"pk\">약 3억3천만원</b></div><div class=\"row\" style=\"font-size:34px\"><b>B안</b> 보증금 6,600만원 + <b class=\"pk\">월 약 77만원</b></div></div><div class=\"abs small\" style=\"bottom:50px;left:80px\">* 59B 기준 · B안은 최대 80% 월세 전환, 전환율 3.5% 예시 (기사 계산)</div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">240세대 중 <span class=\"pk\">168세대</span>가 특공</div><div class=\"small\" style=\"margin-top:10px\">일반공급은 72세대 · 특공 비중 70%</div></div><div class=\"pic abs\" style=\"top:340px;left:70px;width:380px;height:470px;background-image:url('../2026-10-22/assets/baby.png');transform:rotate(-3deg)\"></div><div class=\"label red abs\" style=\"top:790px;left:40px;font-size:32px\">신생아·청년 특공 첫 도입</div><div class=\"abs\" style=\"top:350px;left:500px;right:60px\"><div class=\"text\" style=\"font-size:40px;line-height:2\">신생아 <span class=\"mark p\"><b>48</b></span><br>신혼부부 <span class=\"mark p\"><b>36</b></span><br>청년 <span class=\"mark\"><b>36</b></span><br>다자녀 <span class=\"mark\"><b>24</b></span><br>생애최초 <span class=\"mark\"><b>17</b></span><br>노부모 <span class=\"mark\"><b>7</b></span></div></div><div class=\"abs\" style=\"top:920px;left:80px;right:80px\"><div class=\"text\" style=\"font-size:40px\">신혼부부라면 <b>신생아·신혼 특공 84세대</b>를<br>노려볼 수 있어요 👶</div><div class=\"small\" style=\"margin-top:16px\">소득·자산 기준은 GH 입주자모집공고에서 꼭 확인하세요</div></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/lake.png",
+      "dim": "rgba(0,0,0,.62)",
+      "html": "<div class=\"abs\" style=\"top:150px;left:70px;right:70px\"><div class=\"title\">넣기 전에 꼭 알아두세요 ⚠️</div></div><div class=\"abs\" style=\"top:380px;left:70px;right:70px\"><div class=\"label y\">🏠 거주의무 5년</div><br><div class=\"label y\" style=\"margin-top:20px\">🔒 전매제한 10년</div><br><div class=\"label y\" style=\"margin-top:20px\">💸 GH 지분 임대료는 따로</div><br><div class=\"label y\" style=\"margin-top:20px\">📈 추가 지분 값엔 이자 반영</div></div><div class=\"abs\" style=\"bottom:110px;left:70px;right:70px\"><div class=\"text\">목돈은 적고 소득은 꾸준한<br><span class=\"pk\" style=\"font-weight:800\">2030 신혼부부</span>에게 맞는 구조예요</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">📅 일정 캘린더에 바로 저장!</div></div><div class=\"capture abs\" style=\"top:290px;left:80px;right:80px\"><div class=\"row\" style=\"font-size:36px\"><b class=\"pk\">11/9(월)</b> 특별공급</div><div class=\"row\" style=\"font-size:36px\"><b>11/10(화)</b> 1순위</div><div class=\"row\" style=\"font-size:36px\"><b>11/11(수)</b> 2순위</div><div class=\"row\" style=\"font-size:36px\"><b class=\"pk\">11/18(수)</b> 당첨자 발표 🎉</div><div class=\"row\" style=\"font-size:36px\"><b>2027.1.25~27</b> 계약 · 입주 2029년 10월 예정</div></div><div class=\"cut abs\" style=\"top:1010px;left:60px;right:60px\">✂️<i></i>✂️</div><div class=\"abs\" style=\"top:1080px;left:80px;right:80px\"><div class=\"text\" style=\"font-size:36px\">같은 단지 <b>84㎡ 공공분양 360세대</b>도 같은 날 청약 (최고 9억4,930만원)</div></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/key.png", "handle": false,
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.1) 0%, rgba(0,0,0,.72) 100%)",
+      "html": "<div class=\"abs\" style=\"bottom:200px;left:70px;right:70px\"><div class=\"label p\" style=\"font-size:40px\">매주 목요일 저녁 7시 🏠</div><div class=\"shout\" style=\"font-size:84px;margin-top:30px\">놓치면 아까운 청약·혜택만<br>골라서 알려드려요</div><div class=\"text\" style=\"margin-top:36px\"><b>저장</b> 📌 해두고 넣을 사람에게 <b>공유</b>, <span class=\"pk\" style=\"font-weight:800\">@upperbbu_</span> 팔로우 💗</div></div>"
+    }
+  ]
+}
