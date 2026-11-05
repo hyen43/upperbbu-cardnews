@@ -1,0 +1,37 @@
+{
+  "handle": "@upperbbu_",
+  "slides": [
+    {
+      "type": "photo", "bg": "assets/rings.png", "handle": false,
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.62) 0%, rgba(0,0,0,.2) 50%, rgba(0,0,0,.1) 100%)",
+      "html": "<div class=\"abs\" style=\"top:120px;left:80px;right:60px\"><div class=\"shout\" style=\"font-size:96px\">신혼부부만 넣는<br>새 아파트 <span style=\"color:#FFF6B8\">251세대</span></div><div class=\"label y\" style=\"margin-top:36px\">결혼 7년 이내면 무조건 저장 📌</div></div><div class=\"cloud abs\" style=\"right:50px;top:860px\">{{cloud}}<span>우리도<br>해당되나..?</span></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/town.png",
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,.3) 50%, rgba(0,0,0,.65) 100%)",
+      "html": "<div class=\"abs\" style=\"top:150px;left:70px;right:70px\"><div class=\"label w\" style=\"font-size:40px\">📍 경기 안산 · LH 공공분양</div><div class=\"title\" style=\"margin-top:30px;font-size:74px;font-weight:800\">안산신길2 A-6블록<br>신혼희망타운</div><div class=\"text\" style=\"margin-top:20px\">경쟁자가 <b>전부 신혼부부</b>인<br>신혼부부 전용 공공분양이에요</div></div><div class=\"abs\" style=\"bottom:110px;left:70px;right:70px\"><div class=\"label p\" style=\"font-size:46px;font-weight:800\">55㎡(약 25평) 최고 4억6,658만원</div><div class=\"small\" style=\"margin-top:20px\">자료: 청약홈 입주자모집공고 · 층·타입별 상이</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">누가 넣을 수 있냐면요 ✍️</div></div><div class=\"capture abs\" style=\"top:300px;left:80px;right:80px\"><div class=\"bar green\">✅ 신청 자격 체크</div><div class=\"row\" style=\"font-size:34px\"><b>혼인 7년 이내</b> 신혼부부</div><div class=\"row\" style=\"font-size:34px\">또는 <b>6세 이하 자녀</b>가 있는 가구 <span class=\"muted\">(태아 포함)</span></div><div class=\"row\" style=\"font-size:34px\"><b class=\"pk\">예비신혼부부</b>도 OK 💍</div><div class=\"row\" style=\"font-size:34px\"><b>무주택 세대구성원</b></div></div><div class=\"burst abs\" style=\"right:40px;top:150px;transform:rotate(10deg);width:230px;height:230px;font-size:30px\">{{burst}}<span>결혼<br>예정도!</span></div><div class=\"abs\" style=\"top:900px;left:80px;right:80px\"><div class=\"label y\" style=\"font-size:38px\">⚠️ 소득·자산 기준은 공고문에서 꼭 확인</div><div class=\"text\" style=\"margin-top:40px;font-size:40px\">맞벌이라 소득이 걱정되면<br><span class=\"mark p\"><b>공고문 소득 기준표</b></span>부터 보세요</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">신혼희망타운만의<br>특별한 점 💡</div></div><div class=\"pic abs\" style=\"top:400px;left:70px;width:360px;height:440px;background-image:url('assets/key.png');transform:rotate(-3deg)\"></div><div class=\"label red abs\" style=\"top:800px;left:60px;font-size:34px\">전용 대출 의무 가입</div><div class=\"abs\" style=\"top:410px;left:480px;right:60px\"><div class=\"text\" style=\"font-size:38px;line-height:1.6\">이 단지는 보도 기준<br><span class=\"mark p\"><b>신혼희망타운 전용</b></span><br><span class=\"mark p\"><b>모기지</b></span> 의무 가입<br>대상이에요</div></div><div class=\"capture abs\" style=\"top:930px;left:80px;right:80px\"><div class=\"row\" style=\"font-size:34px\">👍 <b>낮은 고정금리</b>로 오래 빌리는 대신</div><div class=\"row\" style=\"font-size:34px\">👀 집을 팔 때 <b class=\"pk\">차익 일부를 나눠야</b> 해요</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">📅 일정 캘린더에 바로 저장!</div></div><div class=\"capture abs\" style=\"top:290px;left:80px;right:80px\"><div class=\"row\" style=\"font-size:36px\"><b class=\"pk\">11/16(월) ~ 11/23(월)</b> 1순위</div><div class=\"row\" style=\"font-size:36px\"><b>11/24(화)</b> 2순위</div><div class=\"row\" style=\"font-size:36px\"><b class=\"pk\">12/4(금)</b> 당첨자 발표 🎉</div><div class=\"row\" style=\"font-size:36px\"><b>2027.3.30 ~ 4.2</b> 계약</div><div class=\"row\" style=\"font-size:36px\"><b>2029년 11월</b> 입주 예정</div></div><div class=\"cut abs\" style=\"top:1000px;left:60px;right:60px\">✂️<i></i>✂️</div><div class=\"abs\" style=\"top:1070px;left:80px;right:80px\"><div class=\"text\" style=\"font-size:36px\">1순위 접수가 <b>8일</b>이나 돼요. 서류 챙길 시간 충분!</div></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/town.png",
+      "dim": "rgba(0,0,0,.62)",
+      "html": "<div class=\"abs\" style=\"top:150px;left:70px;right:70px\"><div class=\"title\">접수 전에 지금 할 일 ✅</div></div><div class=\"abs\" style=\"top:380px;left:70px;right:70px\"><div class=\"label y\">💍 혼인신고일 · 아이 생년월일 확인</div><br><div class=\"label y\" style=\"margin-top:20px\">🏦 청약통장 가입기간 · 납입 확인</div><br><div class=\"label y\" style=\"margin-top:20px\">📄 소득 · 자산 기준 계산해보기</div><br><div class=\"label y\" style=\"margin-top:20px\">🔎 LH청약플러스에서 공고문 받기</div></div><div class=\"abs\" style=\"bottom:110px;left:70px;right:70px\"><div class=\"text\">신혼 때만 쓸 수 있는 기회라<br><span class=\"pk\" style=\"font-weight:800\">해당되면 꼭 한 번은</span> 넣어보세요</div></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/rings.png", "handle": false,
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.1) 0%, rgba(0,0,0,.72) 100%)",
+      "html": "<div class=\"abs\" style=\"bottom:200px;left:70px;right:70px\"><div class=\"label p\" style=\"font-size:40px\">매주 목요일 저녁 7시 🏠</div><div class=\"shout\" style=\"font-size:84px;margin-top:30px\">놓치면 아까운 청약·혜택만<br>골라서 알려드려요</div><div class=\"text\" style=\"margin-top:36px\"><b>저장</b> 📌 해두고 신혼 친구에게 <b>공유</b>, <span class=\"pk\" style=\"font-weight:800\">@upperbbu_</span> 팔로우 💗</div></div>"
+    }
+  ]
+}
