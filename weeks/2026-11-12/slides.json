@@ -1,0 +1,41 @@
+{
+  "handle": "@upperbbu_",
+  "slides": [
+    {
+      "type": "photo", "bg": "assets/kitchen.png", "handle": false,
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.62) 0%, rgba(0,0,0,.2) 50%, rgba(0,0,0,.15) 100%)",
+      "html": "<div class=\"abs\" style=\"top:120px;left:80px;right:60px\"><div class=\"shout\" style=\"font-size:96px\">주담대, 이제<br><span style=\"color:#FFF6B8\">고정금리</span>가 더 싸다?!</div><div class=\"label y\" style=\"margin-top:36px\">대출 받을 분 · 갈아탈 분 필독 📌</div></div><div class=\"cloud abs\" style=\"right:50px;top:860px\">{{cloud}}<span>변동이 무조건<br>싼 거 아니었어?</span></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/street.png",
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.65) 0%, rgba(0,0,0,.4) 55%, rgba(0,0,0,.7) 100%)",
+      "html": "<div class=\"abs\" style=\"top:150px;left:70px;right:70px\"><div class=\"text\">5대 은행 5년 고정형 주담대 금리 👀</div><div class=\"capture\" style=\"margin-top:34px\"><div class=\"row\" style=\"font-size:36px\"><b>10월 1일</b> 연 4.91% ~ 6.90%</div><div class=\"row\" style=\"font-size:36px\"><b class=\"pk\">11월 6일</b> 연 <b class=\"pk\">4.46% ~ 6.44%</b></div></div><div class=\"label p\" style=\"margin-top:34px;font-size:52px;font-weight:900\">한 달 새 -0.45%p</div></div><div class=\"abs\" style=\"bottom:110px;left:70px;right:70px\"><div class=\"text\">올여름 <b>8%</b>를 향하던 상단 금리가<br><b>6% 중반</b>까지 내려왔어요</div><div class=\"small\" style=\"margin-top:16px\">KB국민·신한·하나·우리·NH농협 기준</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">일부 은행은 아예<br><span class=\"pk\">고정 &lt; 변동</span>이 됐어요</div></div><div class=\"capture abs\" style=\"top:420px;left:80px;right:80px\"><div class=\"bar blue\">🏦 하나은행 (11월 6일)</div><div class=\"row\" style=\"font-size:36px\"><b class=\"pk\">5년 고정형</b> 4.727% ~ 5.927%</div><div class=\"row\" style=\"font-size:36px\"><b>6개월 변동형</b> 4.741% ~ 5.941%</div></div><div class=\"burst abs\" style=\"right:40px;top:250px;transform:rotate(10deg);width:230px;height:230px;font-size:32px\">{{burst}}<span>금리<br>역전!</span></div><div class=\"abs\" style=\"top:800px;left:80px;right:80px\"><div class=\"text\">NH농협도 상단 기준<br><b>고정 6.44%</b> vs <b>변동 6.47%</b>로 뒤집혔어요</div><div class=\"label y\" style=\"margin-top:40px;font-size:38px\">보통은 고정이 변동보다 비싸요</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">왜 이렇게 됐냐면요 🤔</div></div><div class=\"pic abs\" style=\"top:300px;left:70px;width:360px;height:440px;background-image:url('assets/budget.png');transform:rotate(-3deg)\"></div><div class=\"abs\" style=\"top:310px;left:480px;right:60px\"><div class=\"text\" style=\"font-size:36px;line-height:1.6\"><b>고정금리 기준</b><br>은행채 5년물<br><span class=\"mark p\"><b>4.51% → 4.05%</b></span> ⬇️</div><div class=\"text\" style=\"font-size:36px;line-height:1.6;margin-top:30px\"><b>변동금리 기준</b><br>코픽스(9월) <span class=\"mark\"><b>3.43%</b></span> ⬆️<br><span class=\"small\">2년 3개월 만에 최고</span></div></div><div class=\"abs\" style=\"top:860px;left:80px;right:80px\"><div class=\"text\">장기 금리는 내리고, 단기 금리는 오르면서<br><span class=\"mark p\"><b>둘 사이 차이가 확 줄었어요</b></span></div><div class=\"small\" style=\"margin-top:20px\">코픽스는 예금금리 영향으로 연말까지 오를 거란 전망이에요</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">그래서 얼마나 줄었냐면 💸</div><div class=\"text\" style=\"margin-top:10px;font-size:36px\">4억 · 30년 · 원리금균등 기준</div></div><div class=\"abs\" style=\"top:430px;left:80px;width:440px\"><div class=\"label k\" style=\"font-size:34px\">연 7.50% (7월 말)</div><div class=\"num\" style=\"margin-top:16px;font-size:110px;color:#9a9a9a\">279.7<small>만</small></div></div><div class=\"abs\" style=\"top:430px;left:560px;width:440px\"><div class=\"label k\" style=\"font-size:34px\">연 6.44% (11월 6일)</div><div class=\"num\" style=\"margin-top:16px;font-size:110px\">251.3<small>만</small></div></div><div class=\"abs\" style=\"top:760px;left:80px;right:80px\"><div class=\"label y\" style=\"font-size:46px;font-weight:800\">매달 약 28만원 덜 내요 🙌</div><div class=\"text\" style=\"margin-top:40px\">1년이면 <b>약 340만원</b> 차이예요</div></div><div class=\"abs small\" style=\"bottom:60px;left:80px\">* 고정형 상단금리 기준 계산 (헤럴드경제 보도) · 실제 금리는 개인 신용·우대에 따라 달라요</div>"
+    },
+    {
+      "type": "photo", "bg": "assets/bank.png",
+      "dim": "rgba(0,0,0,.64)",
+      "html": "<div class=\"abs\" style=\"top:150px;left:70px;right:70px\"><div class=\"title\">그런데 꼭 알아두세요 ⚠️</div></div><div class=\"abs\" style=\"top:370px;left:70px;right:70px\"><div class=\"label y\">🔁 '고정형'은 5년 고정 후 변동(혼합형)</div><br><div class=\"label y\" style=\"margin-top:20px\">📈 금통위원 과반 \"추가 인상 필요\"</div><br><div class=\"label y\" style=\"margin-top:20px\">🗓️ 11월 26일 금통위 금리 결정</div><br><div class=\"label y\" style=\"margin-top:20px\">⏳ 전문가 \"하락은 잠깐일 수도\"</div></div><div class=\"abs\" style=\"bottom:110px;left:70px;right:70px\"><div class=\"text\">유가가 아직 높아서<br><span class=\"pk\" style=\"font-weight:800\">금리가 다시 오를 수 있다</span>는 전망도 있어요</div></div>"
+    },
+    {
+      "type": "paper",
+      "html": "<div class=\"abs\" style=\"top:130px;left:80px;right:80px\"><div class=\"title\">그래서 지금 할 일 ✅</div></div><div class=\"abs\" style=\"top:290px;left:80px;right:80px\"><div class=\"text\">1️⃣ 새로 받는다면 <span class=\"mark\">고정·변동 금리표</span> 둘 다 받기</div><div class=\"small\" style=\"margin:6px 0 0 62px\">은행마다 역전 여부가 달라요</div><div class=\"text\" style=\"margin-top:34px\">2️⃣ 변동금리 쓰는 중이면 <span class=\"mark\">금리 바뀌는 날</span> 확인</div><div class=\"small\" style=\"margin:6px 0 0 62px\">올해 4분기 금리 재산정 주담대만 약 165조원</div><div class=\"text\" style=\"margin-top:34px\">3️⃣ 갈아타기 전 <span class=\"mark\">중도상환수수료</span> 계산</div><div class=\"small\" style=\"margin:6px 0 0 62px\">줄어드는 이자보다 수수료가 크면 손해예요</div></div><div class=\"cut abs\" style=\"top:1000px;left:60px;right:60px\">✂️<i></i>✂️</div><div class=\"abs\" style=\"top:1070px;left:80px;right:80px\"><div class=\"text\" style=\"font-size:36px\">정부도 <b>장기 고정금리 주담대</b> 출시를 추진 중이에요 (TF 운영)</div></div>"
+    },
+    {
+      "type": "photo", "bg": "assets/kitchen.png", "handle": false,
+      "dim": "linear-gradient(180deg, rgba(0,0,0,.15) 0%, rgba(0,0,0,.75) 100%)",
+      "html": "<div class=\"abs\" style=\"bottom:200px;left:70px;right:70px\"><div class=\"label p\" style=\"font-size:40px\">매주 목요일 저녁 7시 🏠</div><div class=\"shout\" style=\"font-size:84px;margin-top:30px\">내 대출·내 집 마련에<br>바로 쓰는 정보만</div><div class=\"text\" style=\"margin-top:36px\"><b>저장</b> 📌 해두고 대출 있는 친구에게 <b>공유</b>, <span class=\"pk\" style=\"font-weight:800\">@upperbbu_</span> 팔로우 💗</div></div>"
+    }
+  ]
+}
