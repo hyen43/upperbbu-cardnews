@@ -1,0 +1,23 @@
+/* 메모장 스타일 (릴스 9:16, 1080×1920) — template.css의 폰트 정의를 그대로 씀 */
+:root { --memo-accent: #E0A100; --memo-gray: #8E8E93; --memo-line: #E5E5EA; --hl: #FFE58A; --hl-pink: #FFC6E3; }
+body { width: 1080px; background: #fff; }
+.note { width: 1080px; height: 1920px; position: relative; overflow: hidden; background: #fff; color: #111; font-family: 'Pretendard', sans-serif; letter-spacing: -0.03em; word-break: keep-all; }
+/* 릴스 UI가 덮는 위 220px · 아래 380px는 비워 둠 */
+.note .bar { position: absolute; top: 140px; left: 56px; right: 56px; display: flex; justify-content: space-between; font: 500 44px 'Pretendard'; color: var(--memo-accent); }
+.note .date { position: absolute; top: 230px; left: 0; right: 0; text-align: center; font: 500 30px 'Pretendard'; color: var(--memo-gray); }
+.note .page { position: absolute; top: 300px; left: 72px; right: 72px; bottom: 380px; display: flex; flex-direction: column; }
+.note h1 { font: 800 76px/1.3 'Pretendard'; letter-spacing: -0.045em; margin-bottom: 36px; }
+.note p { font: 500 50px/1.6 'Pretendard'; margin-bottom: 26px; }
+.note b { font-weight: 800; }
+.note .hl { background: linear-gradient(transparent 55%, var(--hl) 55%); padding: 0 4px; }
+.note .hlp { background: linear-gradient(transparent 55%, var(--hl-pink) 55%); padding: 0 4px; }
+.note .small { font: 500 36px/1.5 'Pretendard'; color: var(--memo-gray); }
+.note ul { list-style: none; margin: 4px 0 20px; }
+.note li { font: 600 48px/1.5 'Pretendard'; padding: 14px 0 14px 64px; position: relative; }
+.note li::before { content: ''; position: absolute; left: 4px; top: 30px; width: 34px; height: 34px; border: 4px solid var(--memo-gray); border-radius: 50%; }
+.note li.done::before { background: var(--memo-accent); border-color: var(--memo-accent); }
+.note li small { display: block; font: 500 36px/1.45 'Pretendard'; color: var(--memo-gray); }
+.note hr { border: 0; border-top: 3px solid var(--memo-line); margin: 18px 0 30px; }
+.note .meme { margin: 10px 0 24px; border-radius: 28px; overflow: hidden; background-size: cover; background-position: center; flex: 1 1 auto; min-height: 420px; max-height: 640px; }
+.note .meme.empty { background: repeating-linear-gradient(45deg, #FAFAFA 0 24px, #F2F2F2 24px 48px); border: 4px dashed #D1D1D6; display: flex; align-items: center; justify-content: center; text-align: center; font: 600 38px/1.5 'Pretendard'; color: var(--memo-gray); padding: 40px; }
+.note .handle { position: absolute; top: auto; right: auto; text-align: left; bottom: 300px; left: 72px; font: 700 34px 'Pretendard'; color: var(--memo-gray); }
