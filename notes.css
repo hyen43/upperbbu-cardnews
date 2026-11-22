@@ -17,3 +17,5 @@ body { width: 1080px; background: #fff; }
 .note .meme.left { right: auto; left: 120px; }
 .note .meme.empty { background: repeating-linear-gradient(45deg, rgba(255,255,255,.6) 0 22px, rgba(255,255,255,.25) 22px 44px); border: 4px dashed #B8BBD0; display: flex; align-items: center; justify-content: center; text-align: center; font: 600 32px/1.5 'Pretendard'; color: #8A8DA3; padding: 30px; }
 .note .handle { position: absolute; top: auto; right: auto; left: 120px; bottom: 60px; text-align: left; font: 600 28px 'Pretendard'; color: #9A9DB0; text-shadow: none; }
+/* 실제 밈 이미지: 원본 비율 유지, 오른쪽 아래 기준 */
+.note img.meme.img { width: auto; height: auto; max-width: 400px; max-height: 380px; background: none; box-shadow: 0 8px 24px rgba(40,40,80,.12); }

@@ -15,7 +15,7 @@ const meme = (_, side, file, hint) => {
   const cls = side ? 'meme left' : 'meme';
   const p = path.join(base, 'memes', file);
   return fs.existsSync(p)
-    ? `<div class="${cls}" style="background-image:url('file://${p}')"></div>`
+    ? `<img class="${cls} img" src="file://${p}">`
     : `<div class="${cls} empty">밈 자리<br>${hint || file}</div>`;
 };
 
