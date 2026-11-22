@@ -24,13 +24,26 @@ const meme = (_, side, file, hint) => {
   const browser = await chromium.launch();
   const page = await browser.newPage({ viewport: { width: 1080, height: 1350 } });
   for (let i = 0; i < data.notes.length; i++) {
-    let memeHtml = '';
-    const body = data.notes[i].html.replace(/\{\{meme(-left)?:([^|}]+)(?:\|([^}]*))?\}\}/g, (...m) => { memeHtml = meme(...m); return ''; });
+    const n = data.notes[i];
+    let section;
+    if (n.cover) {
+      // 표지: { "cover": { "bg": "assets/x.jpg", "bubble": "...", "title": "줄1<br>줄2", "labels": ["...", "..."] } }
+      const c = n.cover;
+      const bg = c.bg ? `background-image:url('file://${path.resolve(base, c.bg)}')` : 'background:#f4c6d6';
+      section = `<section class="cover" style="${bg}">
+        ${c.bubble ? `<div class="bubble">${c.bubble}</div>` : ''}
+        <div class="title">${c.title}</div>
+        <div class="labels">${(c.labels || []).map(l => `<span>${l}</span>`).join('')}</div></section>`;
+    } else {
+      let memeHtml = '';
+      const body = n.html.replace(/\{\{meme(-left)?:([^|}]+)(?:\|([^}]*))?\}\}/g, (...m) => { memeHtml = meme(...m); return ''; });
+      section = `<section class="note${i % 2 ? '' : ' alt'}"><div class="page">${body}</div>${memeHtml}
+        <div class="handle">${data.handle}</div></section>`;
+    }
     const html = `<!doctype html><html><head><meta charset="utf-8">
       <link rel="stylesheet" href="file://${path.join(__dirname, 'template.css')}">
       <link rel="stylesheet" href="file://${path.join(__dirname, 'notes.css')}"></head>
-      <body><section class="note"><div class="page">${body}</div>${memeHtml}
-      <div class="handle">${data.handle}</div></section></body></html>`;
+      <body>${section}</body></html>`;
     const tmp = path.join(__dirname, `.tmp_n${i}.html`);
     fs.writeFileSync(tmp, html);
     await page.goto('file://' + tmp);

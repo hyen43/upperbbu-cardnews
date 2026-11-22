@@ -1,21 +1,38 @@
 /* 글 위주 카드 (레퍼런스: 연한 배경 + 일기체 글 + 흰 박스 강조 + 한쪽에 작은 밈), 1080×1350 */
-:root { --ink: #1c1c1e; --soft: #6b6b75; }
+/* 톤앤매너 (2026-11-22): 파스텔 핑크 + 파스텔 노랑 */
+:root { --ink: #2a2226; --soft: #8a7480; --p-pink: #FFD9E6; --p-pink-2: #FFEFF4; --p-yellow: #FFF1A8; --accent: #E5487E; }
 body { width: 1080px; background: #fff; }
 .note { width: 1080px; height: 1350px; position: relative; overflow: hidden; color: var(--ink);
   font-family: 'Pretendard', sans-serif; letter-spacing: -0.02em; word-break: keep-all;
-  background: radial-gradient(120% 90% at 20% 10%, #F4F5FD 0%, #E9ECF8 55%, #E4E6F4 100%); }
+  background: radial-gradient(120% 90% at 15% 8%, #FFF8FA 0%, var(--p-pink-2) 45%, var(--p-pink) 100%); }
+/* 짝수 장은 파스텔 노랑 배경으로 번갈아 */
+.note.alt { background: radial-gradient(120% 90% at 15% 8%, #FFFDF2 0%, #FFF8D6 45%, var(--p-yellow) 100%); }
 .note .page { position: absolute; top: 210px; left: 120px; right: 110px; bottom: 120px; }
 .note p { font: 500 46px/1.5 'Pretendard'; margin-bottom: 48px; }
 .note p:last-child { margin-bottom: 0; }
 .note b { font-weight: 700; }
 /* 흰 박스 강조 (레퍼런스의 하얀 띠) */
 .note .box { display: inline; background: #fff; box-decoration-break: clone; -webkit-box-decoration-break: clone; padding: 6px 14px; line-height: 1.75; margin-left: -14px; }
-.note .em { color: #E0195F; font-weight: 700; }
+.note .em { color: var(--accent); font-weight: 800; }
 .note .small { font: 500 34px/1.5 'Pretendard'; color: var(--soft); }
 /* 밈: 오른쪽 아래에 작게 */
 .note .meme { position: absolute; right: 90px; bottom: 120px; width: 400px; height: 400px; background-size: cover; background-position: center; }
 .note .meme.left { right: auto; left: 120px; }
-.note .meme.empty { background: repeating-linear-gradient(45deg, rgba(255,255,255,.6) 0 22px, rgba(255,255,255,.25) 22px 44px); border: 4px dashed #B8BBD0; display: flex; align-items: center; justify-content: center; text-align: center; font: 600 32px/1.5 'Pretendard'; color: #8A8DA3; padding: 30px; }
-.note .handle { position: absolute; top: auto; right: auto; left: 120px; bottom: 60px; text-align: left; font: 600 28px 'Pretendard'; color: #9A9DB0; text-shadow: none; }
+.note .meme.empty { background: repeating-linear-gradient(45deg, rgba(255,255,255,.6) 0 22px, rgba(255,255,255,.25) 22px 44px); border: 4px dashed #E3B6C6; display: flex; align-items: center; justify-content: center; text-align: center; font: 600 32px/1.5 'Pretendard'; color: #B07A90; padding: 30px; }
+.note .handle { position: absolute; top: auto; right: auto; left: 120px; bottom: 60px; text-align: left; font: 600 28px 'Pretendard'; color: #B48A9C; text-shadow: none; }
 /* 실제 밈 이미지: 원본 비율 유지, 오른쪽 아래 기준 */
 .note img.meme.img { width: auto; height: auto; max-width: 400px; max-height: 380px; background: none; box-shadow: 0 8px 24px rgba(40,40,80,.12); }
+
+/* ── 표지 (레퍼런스: 사진 꽉 + 말풍선 + 큰 흰 제목 + 색 띠 부제) ── */
+.cover { width: 1080px; height: 1350px; position: relative; overflow: hidden; background-size: cover; background-position: center; font-family: 'Pretendard', sans-serif; word-break: keep-all; }
+.cover::before { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,.05) 0%, rgba(0,0,0,.05) 40%, rgba(0,0,0,.45) 75%, rgba(0,0,0,.55) 100%); }
+.cover > * { position: absolute; z-index: 1; }
+.cover .bubble { top: 150px; right: 80px; max-width: 460px; background: #fff; color: #222; border: 4px solid #222; border-radius: 48% / 44%; padding: 40px 46px; font: 600 36px/1.4 'Pretendard'; text-align: center; letter-spacing: -0.03em; }
+.cover .bubble::after { content: ''; position: absolute; left: 40px; bottom: -34px; border: 22px solid transparent; border-top: 30px solid #222; transform: rotate(18deg); }
+.cover .bubble::before { content: ''; position: absolute; left: 44px; bottom: -22px; border: 18px solid transparent; border-top: 24px solid #fff; transform: rotate(18deg); z-index: 1; }
+.cover .title { left: 90px; right: 60px; bottom: 360px; color: #fff; font: 900 112px/1.18 'Pretendard'; letter-spacing: -0.05em; text-shadow: 0 4px 22px rgba(0,0,0,.35); }
+.cover .labels { left: 90px; right: 60px; bottom: 150px; display: flex; flex-direction: column; align-items: flex-start; gap: 22px; }
+.cover .labels span { font: 600 44px/1.35 'Pretendard'; color: #222; padding: 12px 26px; letter-spacing: -0.03em; }
+.cover .labels span:nth-child(1) { background: var(--p-yellow); }
+.cover .labels span:nth-child(2) { background: var(--p-pink); margin-left: 120px; }
+.cover .labels span:nth-child(3) { background: #fff; }
