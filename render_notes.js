@@ -29,8 +29,10 @@ const meme = (_, side, file, hint) => {
     if (n.cover) {
       // 표지: { "cover": { "bg": "assets/x.jpg", "bubble": "...", "title": "줄1<br>줄2", "labels": ["...", "..."] } }
       const c = n.cover;
-      const bg = c.bg ? `background-image:url('file://${path.resolve(base, c.bg)}')` : 'background:#f4c6d6';
-      section = `<section class="cover" style="${bg}">
+      // 밈 표지: "meme": "memes/파일" → 파스텔 배경 위에 큰 밈 (사진 표지는 "bg")
+      const bg = c.meme ? '' : c.bg ? `background-image:url('file://${path.resolve(base, c.bg)}')` : 'background:#f4c6d6';
+      section = `<section class="cover${c.meme ? ' meme-cover' : ''}" style="${bg}">
+        ${c.meme ? `<img class="big-meme" src="file://${path.resolve(base, c.meme)}">` : ''}
         ${c.bubble ? `<div class="bubble">${c.bubble}</div>` : ''}
         <div class="title">${c.title}</div>
         <div class="labels">${(c.labels || []).map(l => `<span>${l}</span>`).join('')}</div></section>`;

@@ -36,3 +36,12 @@ body { width: 1080px; background: #fff; }
 .cover .labels span:nth-child(1) { background: var(--p-yellow); }
 .cover .labels span:nth-child(2) { background: var(--p-pink); margin-left: 120px; }
 .cover .labels span:nth-child(3) { background: #fff; }
+
+/* ── 밈 표지: 파스텔 배경 + 큰 밈 + 진한 제목 ── */
+.cover.meme-cover { background: radial-gradient(120% 90% at 15% 8%, #FFF8FA 0%, var(--p-pink-2) 45%, var(--p-pink) 100%); }
+.cover.meme-cover::before { display: none; }
+.cover.meme-cover .big-meme { top: 150px; left: 50%; transform: translateX(-50%) rotate(-2deg); width: 620px; height: auto; max-height: 600px; object-fit: contain; border: 10px solid #fff; box-shadow: 0 14px 40px rgba(120,60,90,.18); }
+.cover.meme-cover .bubble { top: 40px; right: 40px; z-index: 2; padding: 30px 40px; }
+.cover.meme-cover .labels span:nth-child(2) { background: #fff; }
+.cover.meme-cover .title { color: var(--ink); text-shadow: none; bottom: 330px; font-size: 104px; }
+.cover.meme-cover .labels { bottom: 120px; }

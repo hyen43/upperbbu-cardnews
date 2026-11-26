@@ -3,14 +3,17 @@
   "notes": [
     {
       "cover": {
-        "bg": "assets/kitchen.png",
         "bubble": "또 올랐다고..?<br>우리 이자 얼마 더 내..",
         "title": "기준금리 또 인상,<br>내 대출 이자 계산표",
-        "labels": ["오늘(11/26) 3.00% → 3.25%, 올해만 세 번째;", "대출 있는 사람은 무조건 저장 📌"]
+        "labels": [
+          "오늘(11/26) 3.00% → 3.25%, 올해만 세 번째;",
+          "대출 있는 사람은 무조건 저장 📌"
+        ],
+        "meme": "memes/cover.jpg"
       }
     },
     {
-      "html": "<p>오늘 한국은행이<br>기준금리를 또 올렸음</p><p><span class=\"box\">3.00% → 3.25% (0.25%p 인상)</span><br><span class=\"box\">7월·8월에 이어 올해만 세 번째</span></p><p>하반기에만 <span class=\"em\">0.75%p</span> 오른 거고<br>2년 1개월 만에 최고 수준임</p>{{meme:01.jpg|포기하면 편해}}"
+      "html": "<p>오늘 한국은행이<br>기준금리를 또 올렸음</p><p><span class=\"box\">3.00% → 3.25% (0.25%p 인상)</span><br><span class=\"box\">7월·8월에 이어 올해만 세 번째</span></p><p>하반기에만 <span class=\"em\">0.75%p</span> 오른 거고<br>2년 1개월 만에 최고 수준임</p>{{meme:03.jpg|호옹이}}"
     },
     {
       "html": "<p>0.25%p 오르면 이자 얼마 더 내냐면</p><p><span class=\"box\">대출 1억 → 연 25만 · 월 약 2만원</span><br><span class=\"box\">대출 2억 → 연 50만 · 월 약 4만원</span><br><span class=\"box\">대출 3억 → 연 75만 · 월 약 6만원</span><br><span class=\"box\">대출 4억 → 연 100만 · 월 약 8만원</span></p><p class=\"small\">인상분이 대출금리에 그대로 붙는다고 가정한 계산</p>{{meme:02.jpg|두뇌 풀가동}}"
@@ -19,7 +22,7 @@
       "html": "<p>근데 올해 오른 걸 다 합치면</p><p><span class=\"box\">7월 + 8월 + 11월 = 0.75%p</span><br><span class=\"box\">대출 3억이면 연 225만원 더</span></p><p>이미 주담대 금리는 <b>4.98%</b><br>14년 7개월 만에 최고임 (10월 기준)</p>"
     },
     {
-      "html": "<p>더 무서운 건 이거</p><p><span class=\"box\">금통위원 7명 중 5명이 인상 찬성</span><br><span class=\"box\">6개월 뒤 전망은 3.50~3.75%에 몰림</span></p><p>추가 인상 여지가 남아있다는 뜻<br>다음 금통위는 <span class=\"em\">내년 1월 14일</span></p>{{meme:03.jpg|호옹이}}"
+      "html": "<p>더 무서운 건 이거</p><p><span class=\"box\">금통위원 7명 중 5명이 인상 찬성</span><br><span class=\"box\">6개월 뒤 전망은 3.50~3.75%에 몰림</span></p><p>추가 인상 여지가 남아있다는 뜻<br>다음 금통위는 <span class=\"em\">내년 1월 14일</span></p>"
     },
     {
       "html": "<p>특히 변동금리라면 체크</p><p><span class=\"box\">새로 받은 주담대 66%가 변동금리</span><br><span class=\"box\">금리 바뀌는 날부터 이자가 올라감</span></p><p>내 대출 <b>금리 재산정일</b>이 언제인지<br>은행 앱에서 꼭 확인해보기</p>"
